@@ -6,7 +6,7 @@ const studentSchema = new mongoose.Schema({
     default: 'vs',
   },
   class: {
-    type: [String],
+    type: String,
     required: true,
   },
   age: {
