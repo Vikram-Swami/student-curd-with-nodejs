@@ -10,7 +10,6 @@ app.use(bodyParser.json());
 
 app.use('/student', studentRouter);
 
-
 app.listen(PORT, () => {
-  console.log('running on port 3000');
+  console.log('running on port', PORT);
 });
